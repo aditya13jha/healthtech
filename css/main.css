@@ -1,9 +1,10 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* variables */
 :root{
-    --fros-blue-color: #0050d5;
-    --light-blue-color: #16c5ff;
+    --fros-blue-color: #245953;
+    --light-blue-color: #408E91;
     --dark-color: #202020;
     --light-gray: #dedede;
     --dark-gray: #a1a1a0;
@@ -20,6 +21,9 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+
+
 html{
     font-size: 10px;
 }
@@ -99,6 +103,10 @@ a{
 .btn:hover{
     -webkit-box-shadow: var(--box-shadow);
             box-shadow: var(--box-shadow);
+}
+
+#cont{
+    margin-left: 30%;
 }
 
 .container{
@@ -347,7 +355,7 @@ button[class ^= navbar]:hover{
 }
 .about-right .img{
     width: 100%;
-    background-color: #3983fe;
+    background-color: #245953;
     max-width: 537px;
     position: relative;
 }
@@ -366,7 +374,7 @@ button[class ^= navbar]:hover{
 .about-right .img::after{
     top: -56px;
     left: 0;
-    background-color: #0060ff;
+    background-color: #245953;
     z-index: -1;
 }
 .about-right .img::before{
@@ -378,9 +386,9 @@ button[class ^= navbar]:hover{
 
 /* banner one section */
 .banner-one{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 80, 213, 0.9)), to(rgba(0, 90, 213, 0.85))), url('../images/banner-1-img.png') top/cover no-repeat;
-    background: -o-linear-gradient(rgba(0, 80, 213, 0.9), rgba(0, 90, 213, 0.85)), url('../images/banner-1-img.png') top/cover no-repeat;
-    background: linear-gradient(rgba(0, 80, 213, 0.9), rgba(0, 90, 213, 0.85)), url('../images/banner-1-img.png') top/cover no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(36,89,83, 0.9)), to(rgba(36,89,83, 0.85))), url('../images/banner-1-img.png') top/cover no-repeat;
+    background: -o-linear-gradient(rgba(36,89,83, 0.9), rgba(36,89,83, 0.85)), url('../images/banner-1-img.png') top/cover no-repeat;
+    background: linear-gradient(rgba(36,89,83, 0.9), rgba(36,89,83, 0.85)), url('../images/banner-1-img.png') top/cover no-repeat;
     height: 480px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -431,6 +439,9 @@ button[class ^= navbar]:hover{
 .service-item:last-child{
     margin-bottom: 0;
 }
+
+
+
 .service-item .icon img{
     width: 80px;
     margin: auto;
@@ -442,9 +453,9 @@ button[class ^= navbar]:hover{
 
 /* banner two section */
 .banner-two{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 80, 213, 0.9)), to(rgba(0, 90, 213, 0.85))), url('../images/banner-two-bg.png') top/cover no-repeat;
-    background: -o-linear-gradient(rgba(0, 80, 213, 0.9), rgba(0, 90, 213, 0.85)), url('../images/banner-two-bg.png') top/cover no-repeat;
-    background: linear-gradient(rgba(0, 80, 213, 0.9), rgba(0, 90, 213, 0.85)), url('../images/banner-two-bg.png') top/cover no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(36,89,83, 0.9)), to(rgba(36,89,83, 0.85))), url('../images/banner-two-bg.png') top/cover no-repeat;
+    background: -o-linear-gradient(rgba(36,89,83, 0.9), rgba(36,89,83, 0.85)), url('../images/banner-two-bg.png') top/cover no-repeat;
+    background: linear-gradient(rgba(36,89,83, 0.9), rgba(36,89,83, 0.85)), url('../images/banner-two-bg.png') top/cover no-repeat;
     padding: 13.6rem 0;
 }
 .banner-two-left img{
@@ -611,7 +622,7 @@ button[class ^= navbar]:hover{
 }
 .form-element .form-control{
     width: 100%;
-    background-color: #3373dd;
+    background-color: #245953;
     border: none;
     outline: 0;
     padding: 1rem 1.6rem;
